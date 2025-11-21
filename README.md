@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (Linear Convolution): 
+```
 // Linear Convolution in Scilab
 
 // Input sequences
@@ -40,11 +41,12 @@ subplot(3,1,3);
 n3 = 0:length(y)-1;
 plot2d3(n3, y);
 xtitle("Linear Convolution y(n)");
-
+```
 
 // Linear Convolution
 
 ## PROGRAM (Circular Convolution): 
+```
 clc;
 clear;
 
@@ -117,7 +119,7 @@ plot2d3(n, y, -4); // stem plot
 xlabel("n");
 ylabel("y(n)");
 title("Circular Convolution y(n)");
-
+```
 
 // Circular Convolution
 
